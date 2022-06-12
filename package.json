@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "vercel-dev": "vercel dev --local-config ./vercel-dev.json",
-    "vite-dev": "vite --port $PORT",
+    "vite-dev": "vite --port 3000",
     "build": "vite build",
     "serve": "vite preview",
     "generate:icon": "node -r @swc-node/register tools/generateIcon.ts"
